@@ -1,0 +1,15 @@
+<form {{action "sendRequest" credentials on="submit" }} method="get">
+  <div class="box">
+    <h1>ELA L3C</h1>
+
+    {{input value=name placeholder="          Enter L3c Server Url" class="email"  }} <br>
+
+    {{input value=password placeholder="             Enter Threat Url" class="email"}} <br>
+  <br> <button type="submit" class="button">Submit</button><br>
+  <div class="message1"></div>
+  <div class="message"></div>
+  
+   </div>
+</form>
+
+<p>Server info and help?<LinkTo @route="help" u style="color:#f1c40f;" >Click Here!</LinkTo></p>
